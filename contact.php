@@ -14,7 +14,7 @@ if(isset($_POST['submitcontact']))
 	$subject = "Zerotheme - Testing Contact Form";
 	$message = " Name: " . $name ."\r\n Email: " . $email . "\r\n Message:\r\n" . $message;
 	 
-	$from = "Zerotheme dot com";
+	$from = "bosshum1 dot com";
 	$headers = "From:" . $from . "\r\n";
 	$headers .= "Content-type: text/plain; charset=UTF-8" . "\r\n"; 
 	 
